@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="s0xhouo6yqhb0afqj_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="ClassDiagram20" />
+    <property name="$name" value="default" />
+    <reference referencedUin="design:view:::100aj0ip37h_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="@__package_fqn" value="Countrys" />
+      <property name="bounds" value="10,10,87,119" />
+      <reference referencedUin="design:node:::143wsp0xojotkd1os_n" />
+    </reference>
+    <reference referencedUin="design:view:::pl63yp0cbue_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="@__package_fqn" value="Lesson_3_2" />
+      <property name="bounds" value="116,1,87,134" />
+      <reference referencedUin="design:node:::tqfsfa2jvk954jxh_n" />
+      <reference referencedUin="design:node:::59idd7muwj5hs50yg_n" />
+    </reference>
+  </view>
+</nodeSet>

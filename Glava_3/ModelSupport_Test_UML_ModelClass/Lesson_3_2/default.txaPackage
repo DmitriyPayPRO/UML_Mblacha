@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <node uin="s2v1oqsa0mgbaeolt_n">
+    <property name="$metaclass" value="InstanceSpecification20" />
+    <property name="$name" value="" />
+    <property name="classifier" value="Lesson_3_2.Point" />
+    <node uin="3b4stx8420o0ursgo_n">
+      <property name="$metaclass" value="Slot20" />
+      <property name="$name" value="Slot1" />
+      <property name="definingFeature" value="xCoord" />
+      <property name="value" value="-10" />
+    </node>
+    <node uin="tr6qc8y50hp5boqii_n">
+      <property name="$metaclass" value="Slot20" />
+      <property name="$name" value="Slot2" />
+      <property name="definingFeature" value="yCoord" />
+      <property name="value" value="10" />
+    </node>
+    <link uin="m5d085ajh3f_l">
+      <property name="$metaclass" value="KernelAssociation20" />
+      <property name="$name" value="Association1" />
+      <property name="label" value="Has" />
+      <participant referencedUin="design:node:::s2v1oqsa0mgbaeolt_n" role="Client" />
+      <participant referencedUin="design:node:::wmrrrj8esrg_n" role="Supplier" />
+    </link>
+    <link uin="4rr2atcemti_l">
+      <property name="$metaclass" value="InstantiatesLink20" />
+      <property name="$name" value="Dependency1" />
+      <property name="mod__cachedBaseName" value="Lesson_3_2.Point" />
+      <participant referencedUin="design:node:::s2v1oqsa0mgbaeolt_n" role="Client" />
+      <participant referencedUin="design:node:::59idd7muwj5hs50yg_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="rcxtuurftsqyj6n5n_n">
+    <property name="$metaclass" value="InstanceSpecification20" />
+    <property name="$name" value="" />
+    <property name="classifier" value="Lesson_3_2.Point" />
+    <node uin="8dxpjma4xsq8ehyjl_n">
+      <property name="$metaclass" value="Slot20" />
+      <property name="$name" value="Slot1" />
+      <property name="definingFeature" value="xCoord" />
+      <property name="value" value="-10" />
+    </node>
+    <node uin="e7momfpoxsqhey0vl_n">
+      <property name="$metaclass" value="Slot20" />
+      <property name="$name" value="Slot2" />
+      <property name="definingFeature" value="yCoord" />
+      <property name="value" value="-10" />
+    </node>
+    <link uin="anvn37n1mrh_l">
+      <property name="$metaclass" value="KernelAssociation20" />
+      <property name="$name" value="Association1" />
+      <property name="label" value="Has" />
+      <participant referencedUin="design:node:::rcxtuurftsqyj6n5n_n" role="Client" />
+      <participant referencedUin="design:node:::wmrrrj8esrg_n" role="Supplier" />
+    </link>
+    <link uin="4j6wc0mz00p_l">
+      <property name="$metaclass" value="InstantiatesLink20" />
+      <property name="$name" value="Dependency1" />
+      <property name="mod__cachedBaseName" value="Lesson_3_2.Point" />
+      <participant referencedUin="design:node:::rcxtuurftsqyj6n5n_n" role="Client" />
+      <participant referencedUin="design:node:::59idd7muwj5hs50yg_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="67o4xmdsm9rvs5qgi_n">
+    <property name="$metaclass" value="InstanceSpecification20" />
+    <property name="$name" value="" />
+    <property name="classifier" value="Lesson_3_2.Point" />
+    <node uin="psq9in6n9rw2yfnm_n">
+      <property name="$metaclass" value="Slot20" />
+      <property name="$name" value="Slot1" />
+      <property name="definingFeature" value="xCoord" />
+      <property name="value" value="10" />
+    </node>
+    <node uin="q09e0dxjn9rglb2uh_n">
+      <property name="$metaclass" value="Slot20" />
+      <property name="$name" value="Slot2" />
+      <property name="definingFeature" value="yCoord" />
+      <property name="value" value="10" />
+    </node>
+    <link uin="1e6rlqidwbt_l">
+      <property name="$metaclass" value="KernelAssociation20" />
+      <property name="$name" value="Association1" />
+      <property name="label" value="Has" />
+      <participant referencedUin="design:node:::67o4xmdsm9rvs5qgi_n" role="Client" />
+      <participant referencedUin="design:node:::wmrrrj8esrg_n" role="Supplier" />
+    </link>
+    <link uin="yzf979d0lli_l">
+      <property name="$metaclass" value="InstantiatesLink20" />
+      <property name="$name" value="Dependency1" />
+      <property name="mod__cachedBaseName" value="Lesson_3_2.Point" />
+      <participant referencedUin="design:node:::67o4xmdsm9rvs5qgi_n" role="Client" />
+      <participant referencedUin="design:node:::59idd7muwj5hs50yg_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="6c02u40moer3507ki_n">
+    <property name="$metaclass" value="InstanceSpecification20" />
+    <property name="$name" value="" />
+    <property name="classifier" value="Lesson_3_2.Point" />
+    <node uin="78n53zi0permqfamm_n">
+      <property name="$metaclass" value="Slot20" />
+      <property name="$name" value="Slot1" />
+      <property name="definingFeature" value="xCoord" />
+      <property name="value" value="10" />
+    </node>
+    <node uin="t5htnxn7perkxbwmj_n">
+      <property name="$metaclass" value="Slot20" />
+      <property name="$name" value="Slot2" />
+      <property name="definingFeature" value="yCoord" />
+      <property name="value" value="-10" />
+    </node>
+    <link uin="tk40bdjp9mg_l">
+      <property name="$metaclass" value="KernelAssociation20" />
+      <property name="$name" value="Association1" />
+      <property name="label" value="Has" />
+      <participant referencedUin="design:node:::6c02u40moer3507ki_n" role="Client" />
+      <participant referencedUin="design:node:::wmrrrj8esrg_n" role="Supplier" />
+    </link>
+    <link uin="92jce074vkq_l">
+      <property name="$metaclass" value="InstantiatesLink20" />
+      <property name="$name" value="Dependency1" />
+      <property name="mod__cachedBaseName" value="Lesson_3_2.Point" />
+      <participant referencedUin="design:node:::6c02u40moer3507ki_n" role="Client" />
+      <participant referencedUin="design:node:::59idd7muwj5hs50yg_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="wmrrrj8esrg_n">
+    <property name="$metaclass" value="InstanceSpecification20" />
+    <property name="$name" value="" />
+    <property name="classifier" value="Lesson_3_2.Polygon" />
+    <link uin="wf5kbktk5fg_l">
+      <property name="$metaclass" value="InstantiatesLink20" />
+      <property name="$name" value="Dependency1" />
+      <property name="mod__cachedBaseName" value="Lesson_3_2.Polygon" />
+      <participant referencedUin="design:node:::wmrrrj8esrg_n" role="Client" />
+      <participant referencedUin="design:node:::tqfsfa2jvk954jxh_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="tqfsfa2jvk954jxh_n">
+    <property name="$metaclass" value="Class20" />
+    <property name="$name" value="Polygon" />
+  </node>
+  <node uin="59idd7muwj5hs50yg_n">
+    <property name="$metaclass" value="Class20" />
+    <property name="$name" value="Point" />
+    <node uin="g8aeiox5bw7aiq80r_n">
+      <property name="$metaclass" value="Property20" />
+      <property name="$name" value="xCoord" />
+      <property name="mod__type" value="Integer" />
+      <property name="mod_Visibility" value="$public" />
+    </node>
+    <node uin="bcsaaecnkx8kkj46k_n">
+      <property name="$metaclass" value="Property20" />
+      <property name="$name" value="yCoord" />
+      <property name="mod__type" value="Integer" />
+      <property name="mod_Visibility" value="$public" />
+    </node>
+    <link uin="dkkwnl7zk8cc0fken_l">
+      <property name="$metaclass" value="KernelAssociation20" />
+      <property name="$name" value="Association1" />
+      <property name="clientCardinality" value="3..*" />
+      <property name="clientIsOrdered" value="True" />
+      <property name="label" value="Has" />
+      <property name="supplierCardinality" value="1" />
+      <participant referencedUin="design:node:::59idd7muwj5hs50yg_n" role="Client" />
+      <participant referencedUin="design:node:::tqfsfa2jvk954jxh_n" role="Supplier" />
+    </link>
+  </node>
+</nodeSet>

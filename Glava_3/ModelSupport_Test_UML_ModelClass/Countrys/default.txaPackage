@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <node uin="omst7ojov0j_n">
+    <property name="$metaclass" value="InstanceSpecification20" />
+    <property name="$name" value="Spain" />
+    <property name="classifier" value="Countrys.Country" />
+    <node uin="j1g93085q9n_n">
+      <property name="$metaclass" value="Slot20" />
+      <property name="$name" value="Slot1" />
+      <property name="definingFeature" value="name" />
+      <property name="value" value="Spain" />
+    </node>
+    <link uin="258nwd0bx7bhpxoop_l">
+      <property name="$doc" value="" />
+      <property name="$metaclass" value="KernelAssociation20" />
+      <property name="$name" value="Association1" />
+      <property name="label" value="Boreders" />
+      <participant referencedUin="design:node:::omst7ojov0j_n" role="Client" />
+      <participant referencedUin="design:node:::i6hb6grdfp3bq6hus_n" role="Supplier" />
+    </link>
+    <link uin="7b70pzz5m9s_l">
+      <property name="$metaclass" value="InstantiatesLink20" />
+      <property name="$name" value="Dependency1" />
+      <property name="mod__cachedBaseName" value="Countrys.Country" />
+      <participant referencedUin="design:node:::omst7ojov0j_n" role="Client" />
+      <participant referencedUin="design:node:::143wsp0xojotkd1os_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="i6hb6grdfp3bq6hus_n">
+    <property name="$metaclass" value="InstanceSpecification20" />
+    <property name="$name" value="France" />
+    <property name="classifier" value="Countrys.Country" />
+    <node uin="ioqnc05y0x49xgaef_n">
+      <property name="$metaclass" value="Slot20" />
+      <property name="$name" value="Slot1" />
+      <property name="definingFeature" value="name" />
+      <property name="value" value="France" />
+    </node>
+    <link uin="ulchnqcaq9j7vv2ij_l">
+      <property name="$metaclass" value="KernelAssociation20" />
+      <property name="$name" value="Association1" />
+      <property name="label" value="Borders" />
+      <participant referencedUin="design:node:::i6hb6grdfp3bq6hus_n" role="Client" />
+      <participant referencedUin="design:node:::c9e1ymsnk074cl0yi_n" role="Supplier" />
+    </link>
+    <link uin="oj4lyfza5wf_l">
+      <property name="$metaclass" value="InstantiatesLink20" />
+      <property name="$name" value="Dependency1" />
+      <property name="mod__cachedBaseName" value="Countrys.Country" />
+      <participant referencedUin="design:node:::i6hb6grdfp3bq6hus_n" role="Client" />
+      <participant referencedUin="design:node:::143wsp0xojotkd1os_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="c9e1ymsnk074cl0yi_n">
+    <property name="$metaclass" value="InstanceSpecification20" />
+    <property name="$name" value="Belgium" />
+    <property name="classifier" value="Countrys.Country" />
+    <node uin="0l29o89zs79958vrp_n">
+      <property name="$metaclass" value="Slot20" />
+      <property name="$name" value="Slot1" />
+      <property name="definingFeature" value="name" />
+      <property name="value" value="Belgium" />
+    </node>
+    <link uin="rscziw00cxl_l">
+      <property name="$metaclass" value="InstantiatesLink20" />
+      <property name="$name" value="Dependency1" />
+      <property name="mod__cachedBaseName" value="Countrys.Country" />
+      <participant referencedUin="design:node:::c9e1ymsnk074cl0yi_n" role="Client" />
+      <participant referencedUin="design:node:::143wsp0xojotkd1os_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="143wsp0xojotkd1os_n">
+    <property name="$metaclass" value="Class20" />
+    <property name="$name" value="Country" />
+    <node uin="7xkai1yb33qhxe71o_n">
+      <property name="$metaclass" value="Property20" />
+      <property name="$name" value="name" />
+      <property name="mod__type" value="string" />
+      <property name="mod_Visibility" value="$public" />
+    </node>
+  </node>
+</nodeSet>
